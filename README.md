@@ -14,3 +14,26 @@ pip install -r requirements.txt
 ```powershell
 python main.py
 ```
+
+### Создание исполняемого файла
+
+Для создания исполняемого .exe файла используйте PyInstaller:
+
+**Вариант 1: Использовать скрипт сборки**
+```powershell
+.\build.ps1
+```
+
+или
+
+```powershell
+.\build.bat
+```
+
+**Вариант 2: Ручная сборка**
+```powershell
+pip install -r requirements.txt
+pyinstaller --onefile --windowed --name "ChatList" main.py
+```
+
+После сборки исполняемый файл будет находиться в папке `dist\ChatList.exe`
