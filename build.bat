@@ -4,8 +4,8 @@ pip install -r requirements.txt
 
 echo.
 echo Создание исполняемого файла...
-pyinstaller --onefile --windowed --name "ChatList" main.py
+pyinstaller --onefile --windowed --name "min-pyton" main.py
 
 echo.
-echo Готово! Исполняемый файл находится в папке dist\ChatList.exe
+echo Готово! Исполняемый файл находится в папке dist\min-pyton.exe
 pause

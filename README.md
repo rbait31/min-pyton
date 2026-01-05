@@ -1,4 +1,4 @@
-# ChatList
+# min-pyton
 Программа будет один промт задавать сразу нескольким нейросетям и выдавать ответы в одном интерфейсе
 
 ## Минимальное PyQt приложение
@@ -33,7 +33,7 @@ python main.py
 **Вариант 2: Ручная сборка**
 ```powershell
 pip install -r requirements.txt
-pyinstaller --onefile --windowed --name "ChatList" main.py
+pyinstaller --onefile --windowed --name "min-pyton" main.py
 ```
 
-После сборки исполняемый файл будет находиться в папке `dist\ChatList.exe`
+После сборки исполняемый файл будет находиться в папке `dist\min-pyton.exe`
